@@ -66,5 +66,33 @@
             height: auto;
         }
 .section-two {
-    
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .section-two-title {
+        font-size: 36px;
+        font-weight: bolder;
+        color: #1F2937;
+        padding: 10px;
+        margin: 40px 10px;
+    }
+    .quad-container {
+        display: flex;
+        gap: 40px;
+        margin-bottom: 100px;
+    }
+    .img-text img {
+        width: 200px;
+        height: 200px;
+        border: 5px #3882F6 solid;
+        border-radius: 15px;
+    }
+    .img-text {
+        text-align: center;
+    }
+.section-three {
+    background-color: yellow;
 }
