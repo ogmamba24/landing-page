@@ -120,3 +120,23 @@
             font-weight: bold;
             text-align: right;
         }
+.section-four {
+    background-color: #F9FAF8;
+    display: flex;
+}
+   .action-box {
+       background-color: #3882F6;
+    } 
+        .action-text {
+
+        }
+            .action-text .top {
+                font-size: 24px;
+                font-weight: 700;
+                color: white;
+            }
+            .action-text .bottom {
+                font-size: 18px;
+                color: #E5E7EB;
+            }
+        
