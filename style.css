@@ -59,7 +59,7 @@
                 background-color: #3882F6;
                 font-size: 18px;
                 padding: 5px 20px;
-                border-radius: 25px;
+                border-radius: 10px;
             }
         img {
             width: 500px;
@@ -123,9 +123,15 @@
 .section-four {
     background-color: #F9FAF8;
     display: flex;
+    justify-content: center;
 }
    .action-box {
        background-color: #3882F6;
+       display: flex;
+       border-radius: 10px;
+       padding: 45px 100px;
+       margin: 80px;
+       column-gap: 100px;
     } 
         .action-text {
 
@@ -139,4 +145,15 @@
                 font-size: 18px;
                 color: #E5E7EB;
             }
-        
+        .action-box button {
+            border: 2px white solid;
+        }
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+    .footer-text {
+        color: #F9FAF8;
+        margin: 50px auto;
+    }
